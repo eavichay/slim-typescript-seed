@@ -1,0 +1,25 @@
+{
+  "name": "slim-typescript-seed",
+  "version": "0.0.1",
+  "description": "Frontend starter kit with TypeScript, webpack and slim.js",
+  "main": "build/app.js",
+  "scripts": {
+    "prepublish": "webpack -p",
+    "start": "webpack-dev-server",
+    "typings": "typings"
+  },
+  "repository": "eavichay/slim-typescript-seed",
+  "author": "Avichay Eyal <eavichay@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.22.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "typings": "^1.3.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "slim-js": "^2.7.2"
+  }
+}
