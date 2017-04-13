@@ -8,14 +8,14 @@ module.exports = {
         path: path.resolve(__dirname, "build")
     },
     resolve: {
-        extensions: ["", ".js", ".ts"]
+        extensions: [".js", ".ts"]
     },
     devtool: "inline-source-map",
     module: {
         loaders: [
             {
                 test: /\.ts$/,
-                loader: "ts"
+                loader: "ts-loader"
             }
         ]
     },

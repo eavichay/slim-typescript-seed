@@ -4,8 +4,8 @@
   "description": "Frontend starter kit with TypeScript, webpack and slim.js",
   "main": "build/app.js",
   "scripts": {
-    "prepublish": "webpack -p",
     "start": "webpack-dev-server",
+    "build": "webpack -p",
     "typings": "typings"
   },
   "repository": "eavichay/slim-typescript-seed",
@@ -16,7 +16,7 @@
     "ts-loader": "^2.0.3",
     "typescript": "^2.2.2",
     "typings": "^1.3.3",
-    "webpack": "^1.13.2",
+    "webpack": "fulls1z3/webpack#v2.2.1-harmony",
     "webpack-dev-server": "^1.16.1"
   },
   "dependencies": {
