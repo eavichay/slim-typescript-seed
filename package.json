@@ -20,6 +20,6 @@
     "webpack-dev-server": "^1.16.1"
   },
   "dependencies": {
-    "slim-js": "^2.7.4"
+    "slim-js": "^2.8.2"
   }
 }
